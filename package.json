@@ -1,26 +1,24 @@
 {
-  "name": "inlamning3",
+  "name": "budget-app-assessment",
   "version": "1.0.0",
+  "description": "Antagningsprov i JavaScript - Budgetkalkylator",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "test": "jest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/frykhamn/inlamning3.git"
-  },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "javascript",
+    "assessment",
+    "dom"
+  ],
+  "author": "Chas Academy",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/frykhamn/inlamning3/issues"
-  },
-  "homepage": "https://github.com/frykhamn/inlamning3#readme",
-  "description": "",
   "devDependencies": {
     "jest": "^29.7.0",
-        "jest-environment-jsdom": "^29.7.0",
-    "jsdom": "^20.0.0"
+    "jest-environment-jsdom": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "verbose": true
   }
 }
